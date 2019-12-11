@@ -4,7 +4,7 @@
 }
 .i_section2 {
     font-size: 200%;
-    color: #ffb3b3;
+    color: $section2-color;
     padding: 2rem;
 }
 #card_section2, #card_section3 {
@@ -12,18 +12,37 @@
     margin-bottom: 5rem;
 }
 .fa-dot-circle {
-    color: #ff7676;
+    color: $saumon-color;
 }
 // SECTION 2 //
 
 // SECTION 3 
-.like_dislike{
-    color: #ff7676;
+#section3 {
+    background-color: $saumon-color;
 }
-
+.like_dislike{
+    color: $saumon-color;
+}
 .btn{
     padding: 1.2rem 5rem;
 }
-
+.img-section3 {
+    max-height: 10rem;
+}
 // SECTION 3
+
+// SECTION 4 //
+#section4 {
+    background-color: #f5f5f5;
+}
+.card-color-section4 {
+    color: $saumon-color;
+}
+// SECTION 4 //
+
+// FOOTER //
+.card-color-footer {
+    color: $saumon-color;
+}
+
 

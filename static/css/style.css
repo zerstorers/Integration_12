@@ -1,6 +1,12 @@
 header {
   height: 100vh;
-  background: #F173A9 url("../img/hero_bg_2.jpg"); }
+  background: #F173A9 url("../img/hero_bg_2.jpg");
+  color: white; }
+  header .title-bloc {
+    text-align: center; }
+  header .text-light {
+    position: absolute;
+    top: 95%; }
 
 #title_section2, #title_section3 {
   padding: 6rem 0; }
@@ -17,10 +23,25 @@ header {
 .fa-dot-circle {
   color: #ff7676; }
 
+#section3 {
+  background-color: #ff7676; }
+
 .like_dislike {
   color: #ff7676; }
 
 .btn {
   padding: 1.2rem 5rem; }
+
+.img-section3 {
+  max-height: 10rem; }
+
+#section4 {
+  background-color: #f5f5f5; }
+
+.card-color-section4 {
+  color: #ff7676; }
+
+.card-color-footer {
+  color: #ff7676; }
 
 /*# sourceMappingURL=style.css.map */
